@@ -1,0 +1,107 @@
+.navbar {
+    background-color: rgb(139, 235, 185);
+}
+.navbar-brand {
+    color: rgb(20, 49, 36);
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+.nav-item {
+    margin-left: 5%;
+}
+
+h1 {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-size: 20px;
+}
+
+.bowl1-title, .bowl2-title, .bowl3-title, .bowl4-title {
+    font-size: 20px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    text-align: center;
+    
+}
+
+.bowl1-text, .bowl2-text, .bowl3-text, .bowl4-text {
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.row {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+
+}
+
+
+/* Background color of the boxes */
+.content1-box {
+    background-color: rgb(173, 209, 184);
+}
+.content2-box {
+    background-color:rgb(230, 199, 161);
+}
+.content3-box {
+    background-color:rgb(186, 155, 219);
+}
+.content1-box, .content2-box, .content3-box {
+    box-sizing: border-box;
+}
+
+.foot {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 2%;
+    color: rgb(122, 132, 143);
+    display: block;
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-top {
+    text-decoration: none;
+    color: black;
+    background-color:rgb(139, 235, 185);
+    padding: 2%;
+    border-radius: 150px;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 10%;
+}
+
+
+
+@media (min-width:992px) {
+    .nav-item {
+        display: none;
+    } 
+
+    .back-top {
+        display: none;
+    }
+}
+
+@media (max-width:992) {
+    .box3 {
+        background-color: red;
+    }
+
+    .foot {
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 684px) {
+    .foot {
+        margin-top: 200px;
+    }
+}
